@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" src="style.css">
+    <title>Mundo del Micelio</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido al Mundo del Micelio</h1>
+    </header>
+    <main>
+        <h2>Aquí encontrarás kits de cultivo de hongos comestibles que podrás
+            usar para deliciosas recetas
+        </h2>
+        <container class="hongos" >
+            <ul>
+
+            </ul>
+         </container>
+         <div class="seleccion">
+            <label for="hongos">elija los productos que desea comprar</label>
+            <select name="hongos" id="hongos">
+              <option value="Gírcolas" class="producto">Gírcolas</option>
+              <option value="Melena de León" class="producto" id="2">Melena de León</option>
+              <option value="Portobello" class="producto">Portobello</option>
+              <option value="Shiitake" class="producto">Shiitake</option>
+              <option value="Champiñón" class="producto">Champiñón</option>
+            </select>
+            <input type="number" id="cantidad" class="cantidad">
+            <button class="showFormButton">comprar</button>
+         </div>
+        
+        
+        <div id="userForm">
+            <h3>Ingresa tus datos</h3>
+            <label for="firstName">Nombre:</label>
+            <input type="text" id="firstName"><br>
+            <label for="lastName">Apellido:</label>
+            <input type="text" id="lastName"><br>
+            <label for="contact">Contacto:</label>
+            <input type="text" id="contact"><br>
+            <button id="submitButton">continuar</button>
+        </div>
+       
+       <div>
+
+       </div>
+    </main>
+    <script src="main.js"> </script>
+</body>
+</html>

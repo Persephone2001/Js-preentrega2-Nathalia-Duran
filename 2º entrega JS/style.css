@@ -1,0 +1,12 @@
+.userForm {
+    display: none;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+button {
+    padding: 10px 20px;
+    background-color: hsl(278, 100%, 50%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
